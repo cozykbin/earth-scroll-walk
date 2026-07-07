@@ -3,6 +3,6 @@ dist/
 .codex-qa/
 .vite-dev.*.log
 low_poly_earth.blend
-models/
+/models/
 scripts/
 start-site.bat

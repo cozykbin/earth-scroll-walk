@@ -4,3 +4,6 @@ dist/
 .codex-qa/
 .vite-dev.*.log
 /models/
+
+.vercel
+.env*
