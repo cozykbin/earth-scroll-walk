@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earth Walk</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./node_modules/three/build/three.module.js",
+          "three/examples/jsm/loaders/GLTFLoader.js": "./node_modules/three/examples/jsm/loaders/GLTFLoader.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="scene-canvas" aria-label="A small character walking over a low-poly Earth"></canvas>
+    <main class="scroll-story" aria-label="Earth walk scenes">
+      <section class="story-panel story-panel--intro">
+        <div class="story-copy">
+          <p>Low Poly Earth</p>
+          <h1>Earth Walk</h1>
+        </div>
+      </section>
+      <section class="story-panel story-panel--right">
+        <div class="story-copy">
+          <p>Across blue water</p>
+          <h2>One step, one orbit.</h2>
+        </div>
+      </section>
+      <section class="story-panel">
+        <div class="story-copy">
+          <p>Over green edges</p>
+          <h2>The globe keeps turning.</h2>
+        </div>
+      </section>
+      <section class="story-panel story-panel--right">
+        <div class="story-copy">
+          <p>Round trip</p>
+          <h2>Small traveler, big world.</h2>
+        </div>
+      </section>
+      <section class="story-panel story-panel--outro">
+        <div class="story-copy">
+          <p>Back to the horizon</p>
+          <h2>Keep walking.</h2>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

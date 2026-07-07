@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.codex-qa/
+.vite-dev.*.log
+low_poly_earth.blend
+models/
+scripts/
+start-site.bat
